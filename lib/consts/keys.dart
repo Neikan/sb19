@@ -7,4 +7,4 @@ const String keyButton = 'keyButton';
 
 const String keyViewType = 'keyViewType';
 const String keyChannel = 'keyChannel';
-const String keyMethod = 'keyMethod';
+const String keyMethodId = 'keyMethod';
