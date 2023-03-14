@@ -11,10 +11,7 @@ class ServicePlatformImp implements ServicePlatform {
 
   @override
   Future<void> callMethodChannel(String text) async {
-    try {
-      await method.invokeMethod('CALL', [text]);
-    } on PlatformException catch (e) {
-      print('Failed to get value: ${e.message}.');
-    }
+    // Можно добавить перехват ошибки
+    await method.invokeMethod(platformAndroid[keyMethodId]!, [text]);
   }
 }
