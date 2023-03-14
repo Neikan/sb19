@@ -6,6 +6,13 @@
 flutter run lib/main.dart
 ```
 
+## - Web:
+```sh
+flutter run -d chrome --web-renderer html
+```
+
+<br />
+
 # Run sorting imports
 ```sh
 flutter pub run import_sorter:main
