@@ -6,3 +6,7 @@ const platformAndroid = <String, String>{
   keyChannel: 'TEST_INTEGRATION_CHANNEL_METHOD',
   keyMethodId: 'TEST_INTEGRATION_METHOD_CALL',
 };
+
+const platformWeb = <String, String>{
+  keyViewType: 'web-label',
+};
